@@ -16,14 +16,16 @@
         position: absolute;
         z-index: 10;
     }
+
     .imggif{
-    width:160px;
-    height: 110px;
-    left: 260px;
-    top: 50px;
-    position: absolute;
-    z-index: -30;
-}
+        width: 160px;
+        height: 110px;
+        left:260px;
+        top:30px;
+        position: absolute;
+        z-index: -30;
+    }
+    
    
     .container{
         height: 300px;
@@ -918,6 +920,8 @@
         transition: all 0.4s ease;
         }
 
+       
+
         .buttonRiou{
             width: 100px;
             height: 50px;
@@ -1037,6 +1041,98 @@
         border-radius: 0.5rem;
         z-index: 20;
     }
+
+    /*-----------------------------*/
+
+    .tooltip14 {
+        position: absolute;
+        background: rgba(51, 51, 51, 0.76);
+        /* border: 4px solid #666;*/
+        border-radius:30px;
+        width: 330px;
+        padding: 20px;
+        color: #f1f1f1;
+        font-size: 17px;
+        
+        top: 304px;
+        left: 486px;
+        /* display: none; */
+        opacity: 0;
+        pointer-events: none;
+        z-index:10;
+        
+        
+        }
+        .tooltip14::after, .tooltip14::before {
+        content: "";
+        bottom: 100%;
+        left: 25%;
+        border: solid transparent;
+        height: 0;
+        width: 0;
+        position: absolute;
+        
+        }
+        .tooltip14::after {
+        border-bottom-color: rgba(51, 51, 51, 0.77);
+        border-width: 25px;
+        margin-left: 59px;
+        
+        }
+        .tooltip14::before {
+        /* border-bottom-color: #666;*/
+        border-width: 30px;
+        margin-left: -30px;
+        }
+        
+        .btn13 {
+        display: inline;
+        position: relative;
+        }
+        .btn13 .img7 {
+        position: relative;
+        top: -328px;
+        width: 70px;
+        }
+        .btn13:hover .tooltip14{
+        /* display: block; */
+        pointer-events: all;
+        opacity: 1;
+        transition: all 0.4s ease;
+        }
+
+       
+
+        .buttonRioutest{
+            width: 100px;
+            height: 50px;
+            background: url("https://api.iconify.design/material-symbols:chat-info-outline-sharp.svg?color=%23ff0000");
+            position: absolute;
+            bottom: -168px;
+            left: 703px;
+            transform: translate(-50%, -50%);
+            color: var(--color1);
+            border: 2px solid var(--color1);
+            margin-left: 10px;
+            padding-bottom: 1px;
+            padding-bottom: 30px;
+            text-decoration: none;
+            background-color: #4e4b4b00;
+            color: rgb(2, 2, 2);
+            background-size: 26px;
+            background-position: 17px;
+            
+            background-position-y: 24px;
+            background-repeat: no-repeat;
+            
+            
+            display: inline-block;
+           
+            font-size: 18px;
+            text-align:center;
+            border-radius: 0.5rem;
+            z-index: 20;
+        }
 
     #piedpage {
 	
@@ -1519,14 +1615,15 @@ autant que d’un savoir faire.</p><a class="contact-button4" href="https://maps
                                 <button class="buttonSals" type="button">Décazeville</button><!--sals-->
                                    <div class="tooltip3">
                                        <a><span><img src ="https://upload.wikimedia.org/wikipedia/commons/1/19/Decazeville_4.JPG" alt="" style="width:190px; height:110px; padding-left: 20px; margin-top: 10px; float: right; "/>
-                                        <p style="font-size:14px;">En cours de création...</p><!--<a href="http://www.musee-patrimoine-industriel-minier.net/histoire.html" style="text-decoration-color: blanchedalmond; color: blanchedalmond;"> ICI: Historique</span></a>--><a class="contact-button5" href="https://maps.app.goo.gl/8Z6V6KaQydw6R5Uv6">Itinéraire</a><br><br><br><br><br><br><br><br><br><br><br>
+                                        <p style="font-size:14px;">Que faire à Decazeville en Aveyron
+                                            Office de tourisme et du thermalisme.<br> Bureau de Cransac-Les-Thermes (siège) : + 33 (0)5 65 63 06 80.<br> Bureau de Decazeville : + 33 (0)5 65 43 18 36.<br><br><a href="https://www.tourisme-paysdecazevillois.fr/" style="text-decoration: blanchedalmond; color:blanchedalmond;">> Site Internet Decazeville </a><br><br><br></p><a href="page-decaz.html" style="text-decoration-color: blanchedalmond; color: blanchedalmond;"> ICI: Historique</span></a><br><br><a class="contact-button5" href="https://maps.app.goo.gl/8Z6V6KaQydw6R5Uv6">Itinéraire</a>
                                    </div>
                            </div>
                            <div class="btn2">
                             <button class="buttonCouiz" type="button">Usine la vieille Montagne</button> <!--couiza-->
                                 <div class="tooltip2">
                                     <a><span><img src ="3520016946.jpg" alt="" style="width:170px; height:100px; padding-left:10px; margin-top: 5px; float: right; "/>
-                                        <p style="font-size: 14px;">L'usine métallurgique de Viviez a démarré sa production de zinc en 1855, et a connu une "[…] activité industrielle intense durant 150 ans.". Elle a bénéficié de la proximité de mines de fer, de charbon et de zinc.Les procédés industriels de production de zinc ont varié au cours du temps. Il était obtenu par voie pyrométallurgique de 1855 à 1922 puis par voie hydrométallurgique de 1922 à 1987 .</p><!--<a href="https://www.systext.org/node/2052" style="text-decoration-color: blanchedalmond; color: blanchedalmond;"> ICI: Historique</span></a>--><br><br><br><br><a class="contact-button2" href="https://maps.app.goo.gl/q3rYQPmWHoMbpK9A8">Itinéraire</a>
+                                        <p style="font-size: 14px;">L'usine métallurgique de Viviez a démarré sa production de zinc en 1855, et a connu une "[…] activité industrielle intense durant 150 ans.". Elle a bénéficié de la proximité de mines de fer, de charbon et de zinc.Les procédés industriels de production de zinc ont varié au cours du temps. Il était obtenu par voie pyrométallurgique de 1855 à 1922 puis par voie hydrométallurgique de 1922 à 1987 .</p><a href="https://www.systext.org/node/2052" style="text-decoration-color: blanchedalmond; color: blanchedalmond;"> ICI: Historique</span></a><a class="contact-button2" href="https://maps.app.goo.gl/q3rYQPmWHoMbpK9A8">Itinéraire</a>
                         
                                 </div>
                         </div>
@@ -1559,7 +1656,8 @@ autant que d’un savoir faire.</p><a class="contact-button4" href="https://maps
                                         En cours de création...</br></br><!--<a href="https://fr.wikipedia.org/wiki/Montazels" style="text-decoration-color: blanchedalmond; color: blanchedalmond;"> ICI: Historique</span></a><a class="contact-button4" href="https://goo.gl/maps/UcG1KjuugcTnLHuT7">Itinéraire</a>-->
                                 </div>
                         </div>
-
+                    </div>
+                    
 
                         <!--<footer>
                             <div id="piedpage">
